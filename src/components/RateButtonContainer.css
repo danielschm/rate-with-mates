@@ -1,0 +1,46 @@
+.buttonContainer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rateButton {
+    flex: 1;
+    height: 100%;
+    max-height: 3rem;
+    font-size: 20pt;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 2px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+#b1 {
+    background: #7CD4F4;
+}
+
+#b2 {
+    background: #69CDF2;
+}
+
+#b3 {
+    background: #56C7F0;
+}
+
+#b4 {
+    background: #43C1EF;
+}
+
+#b5 {
+    background: #31BBED;
+}
+
+.selected {
+    color: var(--text);
+    background: rgba(0,0,0,0.3) !important;
+    border-bottom: 2px solid #007cad;
+}

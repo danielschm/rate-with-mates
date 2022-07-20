@@ -1,8 +1,8 @@
-
+import "./RateItem.css";
 
 function RateItem(props) {
     return(
-        <div style={oStyle}>
+        <div className={"imageContainer"}>
             <img src={props.url}/>
         </div>
     )

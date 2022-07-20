@@ -1,8 +1,8 @@
 const oButtonStyle = {
-    borderRadius: "5px",
+    borderRadius: "2px",
     background: "var(--primary)",
     border: "none",
-    padding: "0.7rem 2rem",
+    padding: "1rem 2rem",
     fontWeight: "700"
 };
 
